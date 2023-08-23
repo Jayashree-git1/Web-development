@@ -1,0 +1,51 @@
+.animal-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .animal-card {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .animal-card img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .animal-card h2 {
+    margin-top: 10px;
+  }
+  
+  .animal-card p {
+    margin-top: 5px;
+  }
+  
+  .adopted {
+    background-color: #ddd;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  .additional-info {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .animal-card.active .additional-info {
+    display: block;
+  }
+    
